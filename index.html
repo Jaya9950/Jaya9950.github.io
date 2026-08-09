@@ -443,9 +443,55 @@
             font-size: 13px;
         }
 
+        /* CERTIFICATIONS */
+            .certifications {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 22px;
+            }
+            
+            .certification-card {
+                background: white;
+                border: 1px solid #e2e8f0;
+                border-radius: 14px;
+                padding: 28px;
+                transition: 0.3s;
+            }
+            
+            .certification-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+            }
+            
+            .certification-number {
+                color: #0284c7;
+                font-weight: bold;
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+            
+            .certification-card h3 {
+                color: #0f172a;
+                margin-bottom: 8px;
+            }
+            
+            .certification-card p {
+                color: #64748b;
+                font-size: 14px;
+                margin-bottom: 8px;
+            }
+            
+            .certification-date {
+                color: #94a3b8;
+                font-size: 13px;
+            }
+
         /* MOBILE */
         @media (max-width: 768px) {
 
+            .certifications {
+                grid-template-columns: 1fr;
+            }
             .experience-header {
                 flex-direction: column;
                 gap: 10px;
@@ -529,6 +575,7 @@
             <li><a href="#projects">Projects</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -997,6 +1044,142 @@
 
     </section>
 
+        <!-- CERTIFICATIONS -->
+<section id="certifications">
+
+    <div class="container">
+
+        <div class="section-title">
+            <span>05 — Certifications</span>
+            <h2>Certifications & Training</h2>
+        </div>
+
+        <div class="certifications">
+
+            <!-- CERTIFICATE 01 -->
+            <div class="certification-card">
+
+                <div class="certification-number">
+                    CERTIFICATION 01
+                </div>
+
+                <h3>Sertifikasi Profesi Help Desk Technician</h3>
+
+                <p>
+                    Badan Nasional Sertifikasi Profesi (BNSP)
+                </p>
+
+                <span class="certification-date">
+                    2025 — 2028
+                </span>
+
+                <div style="margin-top: 20px;">
+
+                    <a href="https://drive.google.com/file/d/1edGm8ufM-qZ0ciSTntzyJpceBmPM_21B/view?usp=sharing"
+                       target="_blank"
+                       class="certificate-link">
+                        View Certificate
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- CERTIFICATE 02 -->
+            <div class="certification-card">
+
+                <div class="certification-number">
+                    CERTIFICATION 02
+                </div>
+
+                <h3>Sertifikat Magang Hub</h3>
+
+                <p>
+                    Kementerian Ketenagakerjaan Republik Indonesia
+                </p>
+
+                <span class="certification-date">
+                    2025
+                </span>
+
+                <div style="margin-top: 20px;">
+
+                    <a href="https://drive.google.com/file/d/1xOH_3tMTwUJed8mV27eSMsNMhsKVx0U2/view?usp=sharing"
+                       target="_blank"
+                       class="certificate-link">
+                        View Certificate
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- CERTIFICATE 03 -->
+            <div class="certification-card">
+
+                <div class="certification-number">
+                    CERTIFICATION 03
+                </div>
+
+                <h3>Sertifikat Komputer Masyarakat</h3>
+
+                <p>
+                    Skilvul
+                </p>
+
+                <span class="certification-date">
+                    2024
+                </span>
+
+                <div style="margin-top: 20px;">
+
+                    <a href="https://drive.google.com/file/d/1tQ-tsRanlvnqXT78emds2bIILsIYU8mt/view?usp=sharing"
+                       target="_blank"
+                       class="certificate-link">
+                        View Certificate
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- CERTIFICATE 04 -->
+            <div class="certification-card">
+
+                <div class="certification-number">
+                    CERTIFICATION 04
+                </div>
+
+                <h3>Sertifikat Internet of Things (IoT)</h3>
+
+                <p>
+                    Skilvul
+                </p>
+
+                <span class="certification-date">
+                    2024
+                </span>
+
+                <div style="margin-top: 20px;">
+
+                    <a href="https://drive.google.com/file/d/1LSmibGv7RibdUZFW-daWhDsrRMCy4UTI/view?usp=sharing"
+                       target="_blank"
+                       class="certificate-link">
+                        View Certificate
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
 
     <!-- CONTACT -->
         <section id="contact">
